@@ -4,7 +4,15 @@ namespace SharedFunctions
 {
     public static class Functions
     {
-
+        /// <summary>
+        /// Reads a data file and calculate the minimun diference between two columns from each line of the file
+        /// </summary>
+        /// <param name="filename">Data file to read</param>
+        /// <param name="pattern">Pattern to match</param>
+        /// <param name="minGroup">Group index to use as a min value</param>
+        /// <param name="maxGroup">Group index to use as a max value</param>
+        /// <param name="returnGroup">Group index to use as a return value</param>
+        /// <returns>A desired colum from the line where the minimun diference was found</returns>
         public static string GetSmallestDifference(string filename, string pattern, int minGroup, int maxGroup, int returnGroup)
         {
             int spread;
