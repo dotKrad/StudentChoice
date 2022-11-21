@@ -8,6 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\SharedFunctions\SharedFunctions.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Update="weather.dat">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
