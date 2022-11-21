@@ -8,6 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\SharedFunctions\SharedFunctions.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Update="football.dat">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
