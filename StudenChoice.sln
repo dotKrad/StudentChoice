@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "weather", "weather\weather.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "soccer", "soccer\soccer.csproj", "{32EF901E-EB2A-423E-955F-F5674A668359}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedFunctions", "SharedFunctions\SharedFunctions.csproj", "{903C61DF-18B3-4D6F-AC84-9CB6D1FD3594}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{32EF901E-EB2A-423E-955F-F5674A668359}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32EF901E-EB2A-423E-955F-F5674A668359}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32EF901E-EB2A-423E-955F-F5674A668359}.Release|Any CPU.Build.0 = Release|Any CPU
+		{903C61DF-18B3-4D6F-AC84-9CB6D1FD3594}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{903C61DF-18B3-4D6F-AC84-9CB6D1FD3594}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{903C61DF-18B3-4D6F-AC84-9CB6D1FD3594}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{903C61DF-18B3-4D6F-AC84-9CB6D1FD3594}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
